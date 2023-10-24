@@ -1,6 +1,6 @@
 import { useReducer, useState } from 'react';
 
-// Continue in minute 29'44.
+// Continue in minute 29'44. Remember you are in branch useReducer
 function App () {
   const [ state, dispatch ] = useReducer( ( state, action ) => {
     switch( action.type ) {
